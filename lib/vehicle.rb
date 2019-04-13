@@ -1,10 +1,10 @@
 require 'pry'
 class Vehicle
-  attr_accessor :wheel_size, :number
+  attr_accessor :wheel_size#, :number
 
-  def initialize(wheel_size, number)
+  def initialize(wheel_size)
     @wheel_size = wheel_size
-    @number = number
+    # @number = number
   end
 
   def go
@@ -15,9 +15,9 @@ class Vehicle
     'filling up!'
   end
 
-  def wheel_number
-    binding.pry
-    @number
-  end
+  # def wheel_number
+  #   binding.pry
+  #   @number
+  # end
 
 end
