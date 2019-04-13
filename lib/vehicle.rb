@@ -14,10 +14,4 @@ class Vehicle
   def fill_up_tank
     'filling up!'
   end
-
-  # def wheel_number
-  #   binding.pry
-  #   @number
-  # end
-
 end
