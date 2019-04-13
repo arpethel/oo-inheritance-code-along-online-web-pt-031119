@@ -16,6 +16,7 @@ class Vehicle
   end
 
   def wheel_number
+    binding.pry
     @number
   end
 
