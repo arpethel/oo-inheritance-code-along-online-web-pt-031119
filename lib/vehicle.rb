@@ -15,4 +15,8 @@ class Vehicle
     'filling up!'
   end
 
+  def wheel_number
+    @number
+  end
+
 end
